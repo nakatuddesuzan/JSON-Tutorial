@@ -14,3 +14,9 @@ json_string = json.dumps(student_data)
 
 # see structure of a JSON string output
 print(json_string)
+
+# converting JSON string back to Python
+
+python_obj = json.loads(json_string)
+
+print(python_obj)
